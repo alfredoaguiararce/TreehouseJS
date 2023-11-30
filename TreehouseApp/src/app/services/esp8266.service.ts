@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root',
 })
 export class Esp8266Service {
-  private baseUrl = 'http://192.168.1.4'; // Asegúrate de utilizar la dirección IP correcta
+  private baseUrl = 'http://192.168.0.13:80'; // Asegúrate de utilizar la dirección IP correcta
 
   constructor(private http: HttpClient) {}
 
